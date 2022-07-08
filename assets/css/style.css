@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Kite+One&family=Poppins:wght@300&family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Kite+One&family=Short+Stack&display=swap');
+
+
+h1 {
+    font-family: 'butterfly kids', cursive;
+    font-size: 400%;
+    font-weight: 900;
+    color: #200015;
+}
+
+i {
+    font-size: 70%;
+    color: #254c10;
+}
+
+#homepage-settings {
+    background-color: rgb(180,211,178);
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+
+#text-area {
+    background-color: #e9edef;
+    box-sizing: content-box;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    padding-left: 15vw;
+    font-size: small;
+    font-family: Poppins, sans-serif;
+    border-radius: 7%;
+    border: solid 3px orange;
+}
+
+.button_start_quiz {
+    background-color: #fae2e3;
+    border: 3px solid darkgreen;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3%;
+    width: auto;
+    color: black;
+    font-size: medium;
+    font-weight: 300;
+}

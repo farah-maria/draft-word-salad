@@ -14,7 +14,7 @@ i {
     color: #254c10;
 }
 
-#homepage-settings {
+#general-settings {
     background-color: rgb(180,211,178);
     background-image: url('../images/background.jpg');
     background-size: cover;
@@ -35,6 +35,22 @@ i {
     border: solid 3px orange;
 }
 
+/* container is same as text-area*/
+#container {
+        background-color: #e9edef;
+        box-sizing: content-box;
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1%;
+        padding-left: 15vw;
+        font-size: small;
+        font-family: Poppins, sans-serif;
+        border-radius: 7%;
+        border: solid 3px orange;
+}
+
 .button_start_quiz {
     background-color: #fae2e3;
     border: 3px solid darkgreen;
@@ -45,4 +61,8 @@ i {
     color: black;
     font-size: medium;
     font-weight: 300;
+}
+
+#logo-header {
+    margin-left: 2vw;
 }
